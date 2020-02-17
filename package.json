@@ -1,0 +1,25 @@
+{
+  "name": "@fluidtrends/bananas",
+  "version": "0.1.0",
+  "description": "The default Chunky bundle",
+  "scripts": {
+    "test": "savor test",
+    "coverage": "savor coverage",
+    "open:coverage": "open coverage/lcov-report/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluidtrends/bananas.git"
+  },
+  "main": "index.js",
+  "author": "I. Dan Calinescu <idancalinescu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fluidtrends/bananas/issues"
+  },
+  "homepage": "https://github.com/fluidtrends/bananas",
+  "devDependencies": {
+    "savor": "^1.1.2",
+    "rara": "^1.1.5"
+  }
+}
