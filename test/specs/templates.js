@@ -3,10 +3,16 @@
 const savor = require('savor')
 const npm = require('libnpm')
 const { Archive, File } = require('rara')
-const fs = require('fs-extra')
-const path = require('path')
+const Template = require('../../templates/default')
 
 savor.
+
+add('should load the main file', (context, done) => {
+    const template = new Template({ test: "test1234" })
+
+    context.expect(template.props.test).to.equal("test1234")
+    done()
+}).
 
 add('should load the default template', (context, done) => {
     savor.addAsset('../templates', 'bananas/1/templates', context)
