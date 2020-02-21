@@ -11,16 +11,16 @@ class _ {
         return [
             "chunky.json",
             "package.json",
-            "web/**/*",
-            { chunks: ["chunks/intro/**/*"] },
-            { assets: ["assets/favicon/**/*", 
-                     "assets/text/**/*", 
-                     "assets/cover.r.png", 
-                     "assets/loader.svg", 
-                     "assets/logo.gif", 
-                     "assets/logo.png", 
-                     "assets/strings.json", 
-                     "assets/style.css"] }
+            { web: ["web/**/*"] },
+            { chunks: ["../../chunks/intro/**/*"] },
+            { assets: ["../../assets/favicon/**/*", 
+                     "../../assets/text/**/*", 
+                     "../../assets/cover.r.png", 
+                     "../../assets/loader.svg", 
+                     "../../assets/logo.gif", 
+                     "../../assets/logo.png", 
+                     "../../assets/strings.json", 
+                     "../../assets/style.css"] }
         ]
     }
 }
