@@ -12,13 +12,13 @@ class _ {
             "chunky.json",
             "package.json",
             { chunks: ["chunks/intro/*"] },
-            { assets: ["favicon/**/*", 
-                     "text/**/*", 
-                     "cover.r.png", 
-                     "loader.svg", 
-                     "logo.png", 
-                     "strings.json", 
-                     "style.css"] }
+            { assets: ["assets/favicon/**/*", 
+                     "assets/text/**/*", 
+                     "assets/cover.r.png", 
+                     "assets/loader.svg", 
+                     "assets/logo.png", 
+                     "assets/strings.json", 
+                     "assets/style.css"] }
         ]
     }
 }

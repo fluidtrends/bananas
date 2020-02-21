@@ -24,7 +24,6 @@ add('should load the default template', (context, done) => {
     const archive = new Archive({ dir: context.dir, id: 'bananas' })
 
     savor.promiseShouldSucceed(archive.load(), done, (data) => {
-        console.log(archive.files)
         context.expect(data).to.exist
         stub.restore()
         stub2.restore()
