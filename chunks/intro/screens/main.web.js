@@ -4,7 +4,7 @@ import { Screen } from 'react-dom-chunky'
 export default class MainScreen extends Screen {
   constructor(props) {
     super(props)
-    this.state = { ...this.state, wizardDone: true }
+    this.state = { ...this.state }
   }
 
   componentDidMount() {
@@ -12,6 +12,6 @@ export default class MainScreen extends Screen {
   }
 
   components() {
-    return super.components().concat([])
+    return super.components()
   }
 }
