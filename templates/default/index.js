@@ -11,7 +11,7 @@ class _ {
         return [
             "chunky.json",
             "package.json",
-            { chunks: ["chunks/intro/*"] },
+            { chunks: ["chunks/intro/**/*"] },
             { assets: ["assets/favicon/**/*", 
                      "assets/text/**/*", 
                      "assets/cover.r.png", 
