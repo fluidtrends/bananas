@@ -19,7 +19,7 @@
     },
     "homepage": "https://github.com/fluidtrends/chunky",
     "dependencies": {
-      "react-dom-chunky": "^1.1.34"
+      "react-dom-chunky": "^1.2.1"
     },
     "devDependencies": {
       "react-savor": "^1.1.3"
