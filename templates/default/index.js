@@ -9,15 +9,15 @@ class _ {
 
     get archiveFiles() {
         return [
-            { chunks: ["chunks/intro/**/*"] },
-            { assets: ["assets/favicon/**/*", 
-                 "assets/text/**/*", 
-                 "assets/cover.r.png", 
-                 "assets/loader.svg", 
-                 "assets/logo.gif", 
-                 "assets/logo.png", 
-                 "assets/strings.json", 
-                 "assets/style.css"] }
+            "chunks/intro/**/*",
+            "assets/favicon/**/*", 
+            "assets/text/**/*", 
+            "assets/cover.r.png", 
+            "assets/loader.svg", 
+            "assets/logo.gif", 
+            "assets/logo.png", 
+            "assets/strings.json", 
+            "assets/style.css"
         ]
     }
 
@@ -25,7 +25,7 @@ class _ {
         return [
             "chunky.json",
             "package.json",
-            { web: ["web/**/*"] }
+            "web/**/*"
         ]
     }
 }
