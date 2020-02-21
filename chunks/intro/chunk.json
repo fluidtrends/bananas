@@ -6,11 +6,11 @@
       "icon": "home",
       "path": "/",
       "cover": {
-        "image": "cover.r.jpg",
+        "image": "cover.r.png",
         "opacity": 0.5,
         "navigation": true,
         "title": "Welcome to my website",
-        "subtitle": "You wouldn't believe how easy this was to build",
+        "subtitle": "You would not believe how easy this was to build",
         "type": "default",
         "primaryActionTitle": "See for yourself",
         "link": "http://chunky.io"
@@ -18,7 +18,7 @@
       "components": {
         "intro": {
           "source": "summary",
-          "text": "local://intro",
+          "text": "local://description",
           "image": "logo.gif",
           "textColor": "#37474F"
         }
