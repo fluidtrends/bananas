@@ -11,6 +11,8 @@ add('should load the main file', (context, done) => {
     const template = new Template({ test: "test1234" })
 
     context.expect(template.props.test).to.equal("test1234")
+    context.expect(template.files.length).to.equal(4)
+
     done()
 }).
 
