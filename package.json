@@ -1,6 +1,6 @@
 {
   "name": "@fluidtrends/bananas",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "The default Chunky bundle",
   "scripts": {
     "test": "savor test",

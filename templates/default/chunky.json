@@ -1,29 +1,75 @@
 {
-    "name": "intro",
-    "routes": {
-      "main": {
-        "title": "Welcome",
-        "icon": "home",
-        "path": "/",
-        "cover": {
-          "image": "cover.r.jpg",
-          "opacity": 0.5,
-          "navigation": true,
-          "title": "Welcome to my website",
-          "subtitle": "You wouldn't believe how easy this was to build",
-          "type": "default",
-          "primaryActionTitle": "See for yourself",
-          "link": "http://chunky.io"
-        },
-        "components": {
-          "intro": {
-            "source": "summary",
-            "text": "local://intro",
-            "image": "logo.gif",
-            "textColor": "#37474F"
-          }
-        }
-      }
+  "name": "chunky",
+  "env": "dev",
+  "id": "io.chunky",
+  "androidSdkDir": "~/Library/Android/sdk",
+  "sections": {
+    "start": {
+      "stack": ["intro", "docs"]
     }
-  }
-  
+  },
+  "transitions": ["replace://start"],
+  "provisioning": {},
+  "theme": {
+    "logoImage": "logo.gif",
+    "logoLightImage": "logo.gif",
+    "statusBarLight": false,
+    "titleTextSize": 50,
+    "subtitleTextSize": 32,
+    "headingTextSize": 24,  
+    "subheadingTextSize": 22,  
+    "paragraphTextSize": 20,
+    "codeTextSize": 14,
+    "headerColor": "#FF5722",
+    "textColor": "#546E7A",
+    "linkColor": "#0288D1",
+    "hoverColor": "#1B5E20",
+    "progressColor": "rgba(50,50,50,0.9)",
+    "primaryColor": "#2196F3",
+    "secondaryColor": "#4CAF50",
+    "navigationColor": "#FFFFFF",
+    "navigationTintColor": "#37474F",
+    "backgroundColor": "#999999",
+    "footerTintColor": "#CFD8DC",
+    "footerHeaderColor": "#90A4AE",
+    "footerColor": "#546E7A",
+    "footerBottomColor": "#37474F",
+    "footerSocialIconsColor": "#fff",
+    "footerSocialIconsColorHover": "#37474F"
+  },
+  "styles": [
+    "https://fonts.googleapis.com/css?family=Roboto",
+    "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+    "https://fonts.googleapis.com/icon?family=Material+Icons",
+    "https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.css",
+    "https://unpkg.com/antd@3.26.7/dist/antd.min.css",
+    "https://unpkg.com/material-components-web@4.0.0/dist/material-components-web.css",
+    "https://unpkg.com/react-placeholder@3.0.2/lib/reactPlaceholder.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/antd/3.26.7/antd.min.css"
+  ],
+  "scripts": [
+    "https://unpkg.com/react@16/umd/react.production.min.js",
+    "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/react-transition-group/2.4.0/react-transition-group.min.js",
+    "https://unpkg.com/react-media/umd/react-media.min.js",
+    "https://unpkg.com/react-router/umd/react-router.min.js",
+    "https://unpkg.com/rmwc@5.7.2/dist/styles.js",
+    "https://unpkg.com/react-router-dom/umd/react-router-dom.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/moment.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.3.1/markdown-it.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js",
+    "https://www.gstatic.com/firebasejs/4.4.0/firebase.js",
+    "https://unpkg.com/material-components-web@4.0.0/dist/material-components-web.min.js",
+    "https://unpkg.com/react-progressive-image@0.6.0/umd/react-progressive-image.min.js",
+    "https://www.google.com/recaptcha/api.js",
+    "https://js.braintreegateway.com/web/dropin/1.14.1/js/dropin.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/antd/3.4.5/antd.min.js"
+  ],
+  "info": {
+    "copyright": "2020",
+    "watermark": "Created with Chunky"
+  },
+  "template": "default"
+}
