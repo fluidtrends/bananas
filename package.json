@@ -1,6 +1,6 @@
 {
   "name": "@fluidtrends/bananas",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "The default Chunky bundle",
   "scripts": {
     "test": "savor test",
@@ -27,7 +27,7 @@
     "firebase": "^7.11.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-dom-chunky": "^1.5.1",
+    "react-dom-chunky": "^1.5.2",
     "rmwc": "^5.7.2"
   }
 }
