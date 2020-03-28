@@ -50,7 +50,7 @@
     "web": [
       "https://unpkg.com/antd@4.0.2/dist/antd.js"
     ]
-  }  
+  },
   "info": {
     "copyright": "2020",
     "watermark": "Created with Chunky"
