@@ -45,7 +45,7 @@ engines:
       - javascript
 ratings:
   paths:
-  - template/**/*
+  - src/**/*
 exclude_paths:
 - package.json
 - .circleci/**/*
@@ -55,6 +55,7 @@ exclude_paths:
 - .npmignore
 - LICENSE
 - README.md
+- logo.gif
 - logo.png
 - test/**/*
 - lib/**/*
