@@ -9,11 +9,13 @@ export default async (props: any) => {
   const dir = path.resolve(__dirname, '../../../..')
   const name = "carmel"
   const port = 9999
+  const stack = "jayesse"
   const watch = true
 
-  const options = Object.assign({} {
+  const options = Object.assign({}, {
     port,
     watch,
+    stack,
     dir,
     name
   }, props) as PackingOptions
