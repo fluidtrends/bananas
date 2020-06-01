@@ -3,5 +3,6 @@ import config from '../.carmel.json'
 import * as chunks from './chunks'
 
 Web.renderApp({
-    ...config
+    ...config,
+    chunks
 })
