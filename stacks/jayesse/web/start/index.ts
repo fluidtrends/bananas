@@ -6,18 +6,20 @@ import {
 } from 'papanache'
 
 export default async (props: any) => {
-  const dir = path.resolve(__dirname, '../../../..')
-  const name = "carmel"
-  const port = 9999
-  const stack = "jayesse"
-  const watch = true
+  const bundleDir = path.resolve(__dirname, '../../../..')
+  const stackDir = path.resolve(bundleDir, 'node_modules', 'jayesse')
+  const productsDir = path.resolve(stackDir, 'products')
 
+  const productDir = process.cwd()// path.resolve(productsDir, props.name)
+ 
   const options = Object.assign({}, {
-    port,
-    watch,
-    stack,
-    dir,
-    name
+    watch: true,
+    port: 9999,
+    templateFile: path.resolve(stackDir, 'assets', 'web', 'page.ejs'),
+    destDir: path.resolve(productDir, '.web'),
+    entryFile: path.resolve(stackDir, 'web', 'main.tsx'),
+    stackDir,
+    contextDir: path.resolve(productDir)
   }, props) as PackingOptions
 
   const packer = new WebPacker(options)
