@@ -22,7 +22,7 @@
     "savor": "^1.3.0"
   },
   "dependencies": {
-    "jayesse": "^1.9.7",
+    "jayesse": "^1.9.8",
     "papanache": "^1.9.18"
   }
 }
