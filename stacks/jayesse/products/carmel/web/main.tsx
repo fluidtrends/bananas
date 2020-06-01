@@ -1,5 +1,5 @@
 import { Web } from 'jayesse'
+import config from '../.carmel.json'
+import * as chunks from './chunks'
 
-Web.renderApp({
-    name: "carmel"
-})
+Web.renderApp({ ...config, chunks })
