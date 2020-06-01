@@ -1,6 +1,6 @@
 {
   "name": "@fluidtrends/bananas",
-  "version": "1.9.26",
+  "version": "1.9.30",
   "description": "A Carmel Bundle",
   "scripts": {
     "test": "savor test",
