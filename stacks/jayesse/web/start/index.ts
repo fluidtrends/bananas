@@ -6,25 +6,23 @@ import {
 } from 'papanache'
 
 export default async (props: any) => {
-  const productDir = process.cwd()
-  const stackRoot = path.dirname(path.dirname(require.resolve('jayesse'))) 
-  const srcDir = path.resolve(stackRoot)
-  const targetDir = path.resolve(productDir, '.carmel')
+  const dir = path.resolve(__dirname, '../../../..')
+  const name = "carmel"
   const port = 9999
   const watch = true
 
-  const options = {
-    srcDir,
+  const options = Object.assign({} {
     port,
     watch,
-    targetDir
-  } as PackingOptions
+    dir,
+    name
+  }, props) as PackingOptions
 
-    const packer = new WebPacker(options)
+  const packer = new WebPacker(options)
 
-    const handler = (event: PackingEvent) => {
-        console.log(event)
-    }
+  const handler = (event: PackingEvent) => {
+      console.log(event)
+  }
 
   return packer.pack(handler)
 }
