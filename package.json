@@ -1,6 +1,6 @@
 {
   "name": "@fluidtrends/bananas",
-  "version": "1.8.0",
+  "version": "1.8.5",
   "description": "A Carmel Bundle",
   "scripts": {
     "test": "savor test",
@@ -22,7 +22,7 @@
     "savor": "^1.3.0"
   },
   "dependencies": {
-    "jayesse": "^1.6.0",
-    "papanache": "^1.9.9"
+    "jayesse": "^1.6.5",
+    "papanache": "^1.9.10"
   }
 }
