@@ -1,6 +1,6 @@
 {
   "name": "@fluidtrends/bananas",
-  "version": "1.9.32",
+  "version": "1.9.33",
   "description": "The Default Carmel Bundle",
   "scripts": {
     "test": "savor test",
@@ -18,8 +18,6 @@
     "url": "https://github.com/fluidtrends/bananas/issues"
   },
   "homepage": "https://github.com/fluidtrends/bananas",
-  "devDependencies": {
-  },
-  "dependencies": {
-  }
+  "devDependencies": {},
+  "dependencies": {}
 }
