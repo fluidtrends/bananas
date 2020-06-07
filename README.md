@@ -1,7 +1,7 @@
 <p align="center"> <img src="https://raw.githubusercontent.com/fluidtrends/bananas/master/logo.png" width="256px"> 
 
 <h1 align="center"> Bananas </h1>
-<h3 align="center"> The Default Chunky Bundle </h3>
+<h3 align="center"> The Default Carmel Bundle </h3>
 <p align="center"> Default product templates, chunks, assets and more goodies </p>
 
 <p align="center"> 
