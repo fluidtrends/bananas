@@ -9,22 +9,22 @@ class Template {
     
     get archiveFiles() {
         return [
-            "chunks/intro/**/*",
-            "assets/favicon/**/*", 
-            "assets/text/**/*", 
-            "assets/cover.r.png", 
-            "assets/loader.svg", 
-            "assets/logo.gif", 
-            "assets/logo.png", 
-            "assets/strings.json", 
-            "assets/style.css",
+            "carmel/chunks/intro/**/*",
+            "carmel/assets/favicon/**/*", 
+            "carmel/assets/text/**/*", 
+            "carmel/assets/cover.r.png", 
+            "carmel/assets/loader.svg", 
+            "carmel/assets/logo.gif", 
+            "carmel/assets/logo.png", 
+            "carmel/assets/strings.json", 
+            "carmel/assets/style.css",
             "tsconfig.json"
         ]
     }
 
     get files() {
         return  [
-          "chunks/**/*"
+          "carmel/**/*"
         ]
     }
 }
