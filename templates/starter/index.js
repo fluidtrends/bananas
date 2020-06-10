@@ -23,7 +23,7 @@ class Template {
 
     get files() {
         return  [
-          ".web/**/*"
+          "chunks/**/*"
         ]
     }
 }
