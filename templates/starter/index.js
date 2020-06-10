@@ -24,7 +24,8 @@ class Template {
 
     get files() {
         return  [
-          "carmel/**/*"
+          "carmel/**/*",
+          ".carmel.json"
         ]
     }
 }
