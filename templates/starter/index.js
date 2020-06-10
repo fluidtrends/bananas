@@ -17,7 +17,8 @@ class Template {
             "assets/logo.gif", 
             "assets/logo.png", 
             "assets/strings.json", 
-            "assets/style.css"
+            "assets/style.css",
+            "tsconfig.json"
         ]
     }
 
