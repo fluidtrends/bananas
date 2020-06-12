@@ -3,6 +3,10 @@
     "routes": [{
         "path": "/",
         "screen": "main",
+        "cover": {
+            "title": "This is me",
+            "subtitle": "Wanna know more?"
+        },
         "name": "Welcome",
         "id": "main"
     }]
