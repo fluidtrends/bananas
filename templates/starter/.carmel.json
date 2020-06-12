@@ -1,3 +1,10 @@
 {
-    "chunks": ["intro", "about"]
+    "chunks": ["intro", "about"],
+    "notfound": {
+        "title": "Oops",
+        "subtitle": "Are you sure you really wanna be here?"
+    },
+    "footer": {
+         "watermark": "Built with Carmel."
+    }
 }
