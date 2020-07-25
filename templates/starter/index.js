@@ -12,12 +12,7 @@ class Template {
             "carmel/chunks/intro/**/*",
             "carmel/assets/favicon/**/*", 
             "carmel/assets/text/**/*", 
-            "carmel/assets/cover.r.png", 
-            "carmel/assets/loader.svg", 
-            "carmel/assets/chunky.gif", 
-            "carmel/assets/chunky.png", 
-            "carmel/assets/logo-inverted.png", 
-            "carmel/assets/logo.png", 
+            "carmel/assets/images/**/*", 
             "carmel/assets/strings.json", 
             "carmel/assets/style.css",
             "tsconfig.json"
