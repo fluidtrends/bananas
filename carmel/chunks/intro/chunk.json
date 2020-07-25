@@ -6,9 +6,17 @@
         "screen": "main",
         "cover": {
             "title": "This is me",
-            "subtitle": "Wanna know more?"
+            "subtitle": "Wanna know more?",
+            "image": "main",
+            "action": {
+                "title": "Get Started",
+                "link": "/me"
+            }
         },
         "name": "Welcome",
-        "id": "main"
+        "id": "main",
+        "footer": {
+            "watermark": "Build with Carmel"
+        }
     }]
 }
