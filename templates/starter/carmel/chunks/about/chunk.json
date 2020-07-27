@@ -1,7 +1,8 @@
 {
+    "path": "/me",
     "name": "about",
     "routes": [{
-        "path": "/me",
+        "path": "/",
         "screen": "main",
         "title": "This is me",
         "name": "About Me",
